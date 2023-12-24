@@ -25,6 +25,8 @@ enable_sanitizers(project_options)
 
 add_subdirectory(3rdParty)
 
+include_directories(".")
+
 add_subdirectory(w1)
 add_subdirectory(w2)
 add_subdirectory(w3)
@@ -34,5 +36,6 @@ add_subdirectory(w6)
 add_subdirectory(w7)
 add_subdirectory(w8)
 add_subdirectory(pathfinding)
+
 
 
